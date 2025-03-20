@@ -33,7 +33,7 @@ st.header("Celebrate your Wins")
 achievements = st.text_input("Share something that you have recently accomplished.")
 
 if achievements:
-    st.text_success(f"Bravo! You have achieved: achievements")
+    st.success(f"Bravo! You have achieved: {achievements}")
 else:
     st.info("Failure is not the opposite of success,it's part of success.")
 
